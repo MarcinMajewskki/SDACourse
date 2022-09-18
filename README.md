@@ -1,1 +1,1 @@
-# next-repo sialalala
+Thats my first repository which includes excercises
