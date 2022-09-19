@@ -1,4 +1,4 @@
-package org.example.stringi;
+package org.example.strings;
 
 import java.util.Locale;
 
