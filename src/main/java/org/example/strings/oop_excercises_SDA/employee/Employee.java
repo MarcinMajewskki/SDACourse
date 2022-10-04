@@ -1,6 +1,8 @@
 package org.example.oop_excercises_SDA.employee;
 
+import org.example.anotheremployee.EmployeeRole;
 import org.example.oop_excercises_SDA.address.Address;
+import org.example.oop_excercises_SDA.department.Department;
 
 public class Employee {
 
@@ -9,20 +11,27 @@ public class Employee {
     private long pesel;
     Address address;
 
+    Department department;
+    EmployeeRole employeeRole;
+
     public Employee() {
         this.id = 0;
         this.name = "unknown";
         this.surname = "unknown";
         this.pesel = 0L;
         this.address = new Address("unknown", "unknown", 0);
+        this.department = Department.UNKNOWN;
+        this.employeeRole = EmployeeRole.UNKNOWN;
     }
 
-    public Employee(int id, String name, String surname, long pesel, String city, String street, int postcode) {
+    public Employee(int id, String name, String surname, long pesel, String city, String street, int postcode , Department department, EmployeeRole employeeRole) {
         this.id = id;
         this.name = name;
         this.surname = surname;
         this.pesel = pesel;
         this.address = new Address(street, city, postcode);
+        this.department = department;
+
     }
 
     public int getId() {
@@ -71,8 +80,9 @@ public class Employee {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
+                ", department=" + department.toString() +
                 ", pesel=" + pesel +
                 ", address=" + address +
-                '}';
+                '}' + "\n";
     }
 }
