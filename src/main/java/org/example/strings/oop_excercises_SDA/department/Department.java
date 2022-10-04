@@ -1,4 +1,4 @@
-package org.example.oop_excercises_SDA.department;
+package org.example.strings.oop_excercises_SDA.department;
 
 public enum Department {
  HR(1),

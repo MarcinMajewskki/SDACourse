@@ -1,6 +1,6 @@
-package org.example.oop_excercises_SDA.employee;
+package org.example.strings.oop_excercises_SDA.employee;
 
-import org.example.oop_excercises_SDA.address.Address;
+import org.example.strings.oop_excercises_SDA.address.Address;
 
 import java.util.ArrayList;
 import java.util.Objects;

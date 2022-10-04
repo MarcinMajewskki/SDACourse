@@ -1,4 +1,4 @@
-package org.example.exceptions.divide_By_Zero;
+package org.example.strings.oop_excercises_SDA.exceptions.divide_By_Zero;
 
 public class Main {
     public static void main(String[] args) throws CannotDivideBy0Exception {

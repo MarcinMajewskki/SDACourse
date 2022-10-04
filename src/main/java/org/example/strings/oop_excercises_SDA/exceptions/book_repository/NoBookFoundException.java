@@ -1,4 +1,4 @@
-package org.example.exceptions.book_repository;
+package org.example.strings.oop_excercises_SDA.exceptions.book_repository;
 
 public class NoBookFoundException extends Exception{
     int id;

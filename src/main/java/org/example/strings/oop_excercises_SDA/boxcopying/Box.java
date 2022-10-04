@@ -1,4 +1,4 @@
-package org.example.oop_excercises_SDA.boxcopying;
+package org.example.strings.oop_excercises_SDA.boxcopying;
 
 import java.util.Objects;
 

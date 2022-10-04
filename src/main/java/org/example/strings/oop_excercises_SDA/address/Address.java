@@ -1,4 +1,4 @@
-package org.example.oop_excercises_SDA.address;
+package org.example.strings.oop_excercises_SDA.address;
 
 public class Address {
     private String street;

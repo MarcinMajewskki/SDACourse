@@ -1,9 +1,9 @@
-package org.example.oop_excercises_SDA.employee;
+package org.example.strings.oop_excercises_SDA.employee;
 
 import org.example.anotheremployee.EmployeeRole;
 import org.example.anotheremployee.JavaDeveloper;
-import org.example.oop_excercises_SDA.address.Address;
-import org.example.oop_excercises_SDA.department.Department;
+import org.example.strings.oop_excercises_SDA.address.Address;
+import org.example.strings.oop_excercises_SDA.department.Department;
 
 import java.util.ArrayList;
 
