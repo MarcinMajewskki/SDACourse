@@ -39,6 +39,7 @@ public class BufferedInputReader {
         try {
             int v = 0;
             input = new BufferedReader(new FileReader(selectPath));
+
             for (int i = 1; i < line ; i++) {
                 input.readLine();
             }
